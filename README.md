@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demonstrations
+
+[Video tutorial](https://youtu.be/l1cLlTAiWzQ) [Live website](https://p2-app.vercel.app/pokedex)
+
 ## Available Scripts
 
 In the project directory, you can run:
