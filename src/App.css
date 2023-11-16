@@ -2,37 +2,133 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  --bg-color: rgba(255, 255, 255, .75);
+  font-family: Poppins, sans-serif;
+  background-image: linear-gradient(0deg, var(--bg-color), var(--bg-color)), url('./img/bg.jpg');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  justify-content: top;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h3 {
+  margin-bottom: 0.2rem;
+  text-transform: capitalize;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Pokemon type colours */
+
+.bug {
+  background-color: #C3CE75;;
+}
+
+.dark {
+  background-color: #333;
+}
+
+.dragon {
+  background-color: #F9BE00;
+}
+
+.electric {
+  background-color: #FFD86F;
+}
+
+.fairy {
+  background-color: #f469a9;
+}
+
+.fighting {
+  background-color: #d6b591;
+}
+
+.fire {
+  background-color: #FB6C6C;
+}
+
+.flying {
+  background-color: #BAB0D5;
+}
+
+.ghost {
+  background-color: #735797;
+}
+
+.grass {
+  background-color: #48D0B0;
+}
+
+.ground {
+  background-color: #B1736C;
+}
+
+.ice {
+  background-color: #7FCCEC;
+}
+
+.normal {
+  background-color: #C2C2A1;
+}
+
+.poison {
+  background-color: #7C538C;
+}
+
+.psychic {
+  background-color: #9B7FA6;
+}
+
+.rock {
+  background-color: #a6aab6;
+}
+
+.steel {
+  background-color: #CCCCDE;
+}
+
+.water {
+  background-color: #609FB5;
+}
+
+.app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.fav-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.github__icon,
+.app__footer {
+  color: var(--colorPrimary);
+}
+
